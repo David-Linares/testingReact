@@ -1,0 +1,63 @@
+.gallery {
+    padding: 0.5em 0;
+}
+
+.gallery__item {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery__item__caption {
+    margin: 0;
+}
+
+.gallery__item__image {
+    width: 100%;
+}
+
+.gallery__item__description {
+    background: #333;
+    color: #eee;
+    position: relative;
+    padding: 1em;
+    opacity: 0.6;
+}
+
+.finder {
+    background: #eaeaea;
+    padding: 1em;
+}
+
+.finder__search-term {
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.finder__search-button {
+    background: #286090;
+    border-color: #204d74;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 3em;
+    text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    .gallery__item {
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .gallery__item {
+        width: 24%;
+        max-width: 320px;
+    }
+}
